@@ -2,9 +2,9 @@
 using namespace std;
 
 bool playGame(int diff) {
-    int codea = rand() % diff;
-    int codeb = rand() % diff;
-    int codec = rand() % diff;
+    int codea = (rand() % diff) + 1;
+    int codeb = (rand() % diff) + 1;
+    int codec = (rand() % diff) + 1;
     int codeSum = codea + codeb + codec;
     int codeProduct = codea * codeb * codec;
     cout<<"\n\nSolve each problem to move to the next level"<<endl;
